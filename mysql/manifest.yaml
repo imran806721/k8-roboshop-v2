@@ -72,7 +72,7 @@ spec:
       containers:
       - name: mysql
         image: imranjoindevops/mysql:4.0.0
-        # args: ["--mysql-native-password=ON"]
+        args: ["--mysql-native-password=ON"]
         envFrom:
         - configMapRef:
             name: mysql
